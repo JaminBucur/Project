@@ -2,7 +2,7 @@
 
 header {
     height: 20%;
-    background-color: #00B0F0;
+    background-color: #07394b;
     background-size: contain;
     color: white;
 }
@@ -12,7 +12,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    background-color: #01065270;
 }
 
 main {
@@ -37,41 +36,13 @@ h1 {
     font: bold 40px impact;
 }
 
-/*.image-slider{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    background-color: #00B050;
-    animation: slide 5s infinite;
-    overflow: hidden; 
-}*/
-.image-slider {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    background-color: #00B050;
-    overflow: hidden; /* Added overflow property to hide the overflowed images */
-}
-
-.image-slider img {
-    transition: transform 0.5s ease; /* Added transition property for smooth sliding */
-}
-
-.image-slider:hover img {
-    transform: translateX(-50%); /* Added transform property for sliding effect on hover */
-}
-
 section {
     height: 25%;
     font: 20px sans-serif;
-    /* background-color: #7030A0; */
 }
 .dual-column {
     width: 50%;
     padding-left: 10%;
-    /*background-color: #FF0000;*/
 }
 
 #dual-container {
